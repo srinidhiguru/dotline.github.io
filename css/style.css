@@ -35,13 +35,13 @@ header .logo img {
 header .nav li {
   display: inline-block;
   font-size: 20px;
-  padding-right: 26px;
+  padding-right: 31px;
   font-weight: 500;
 }
 header a {
   color: #fff;
-  font-size: 20px;
-  padding-right: 5px;
+  font-size: 22px;
+  padding-right: 7px;
 }
 header a:hover {
   color: #c3c0c0;
@@ -75,8 +75,8 @@ header a:hover {
   background-image: url(../img/border-edge.png);
   background-repeat: no-repeat;
   position: absolute;
-  top: 29%;
-  left: 16%;
+  top: 33%;
+  left: 19%;
   height: 500px;
   width: 1000px;
 }
@@ -90,6 +90,7 @@ header a:hover {
 .poster {
   width: 50%;
   background-image: url('../img/img-abt.png');
+  background-size: cover;
   height: 600px;
   box-shadow: 4px 4px 3px grey;
   z-index: 12;
@@ -184,7 +185,7 @@ header a:hover {
 }
 .service img {
   background-size: cover;
-  width: 250px;
+  width: 100%;
 }
 .service h3 {
   font-size: 24px;
